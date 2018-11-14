@@ -1,0 +1,9 @@
+3b044c6a9c15ecbd58f677b2b612c288 *DESCRIPTION
+1d6edc1e39eb34004020c9e035f12266 *NAMESPACE
+35762c10d50db6e296da1afbde6c72aa *R/majestic.R
+b9f8b2cdc631b5b275532f90876fb1c7 *build/vignette.rds
+bbc07ec72cddb8d28f1c2a7ab322f031 *inst/doc/introduction-to-package-majesticr--rmd.R
+a216bc328f28f10f6ee80b42aee0a335 *inst/doc/introduction-to-package-majesticr--rmd.Rmd
+eca054aae8524f27e5c9adc7d24a1a4f *inst/doc/introduction-to-package-majesticr--rmd.html
+644747e080634144aedbebf470d56560 *man/majestic.Rd
+a216bc328f28f10f6ee80b42aee0a335 *vignettes/introduction-to-package-majesticr--rmd.Rmd
