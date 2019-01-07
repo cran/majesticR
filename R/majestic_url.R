@@ -1,24 +1,24 @@
-#' Majestic -
-#' This function provides all backlink data of an URL, including its CitationFlow, TrustFlow, and Root domain.
+#' @title Majestic URL -
+#' @description This function provides all backlink data of an URL, including its CitationFlow, TrustFlow, and Root domain.
 #'
 #' @param url An URL you'd like to investigate.
 #' @param api_key An identification key assigned to a user after subscribing to Majestic that is available via Profile page.
 #'
-#' @return majestic provides all backlink data of an URL
+#' @return majestic_url provides all backlink data of an URL
 #'
 #' @importFrom jsonlite fromJSON
 #' @importFrom utils URLencode
 #'
 #' @examples
 #'\dontrun{
-#' majestic("https://dataseolabs.com/fr/","xxxxxxxxxxxxxxxxxxx")
+#' url <- "https://dataseolabs.com/en/"
+#' api_key <- "xxxxxxxxxxxxxxxxxxx"
+#' majestic_domain(url, api_key)
 #'}
 #' @export
 
 
-majestic <- function(url,api_key){
-
-  url <- as.character(url)
+majestic_url <- function(url,api_key){
 
   api_request <- paste0("https://api.majestic.com/api/json?",
                         "app_api_key=",api_key,

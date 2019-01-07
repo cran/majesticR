@@ -12,7 +12,7 @@
 
 <meta name="author" content="Rémi Bacha" />
 
-<meta name="date" content="2018-11-05" />
+<meta name="date" content="2019-01-07" />
 
 <title>majesticR - R Interface To Access the Majestic API</title>
 
@@ -32,7 +32,7 @@
 
 <h1 class="title toc-ignore">majesticR - R Interface To Access the Majestic API</h1>
 <h4 class="author"><em>Rémi Bacha</em></h4>
-<h4 class="date"><em>2018-11-05</em></h4>
+<h4 class="date"><em>2019-01-07</em></h4>
 
 
 
@@ -46,10 +46,17 @@
 </div>
 <div id="functions" class="section level2">
 <h2>3. Functions</h2>
-<div id="majestic" class="section level3">
-<h3>majestic()</h3>
+<div id="majestic_url" class="section level3">
+<h3>majestic_url()</h3>
 <p>This function provides all backlink data of an URL, including its CitationFlow, TrustFlow, and Root domain.</p>
-<p>library(majesticR) majestic(“<a href="https://dataseolabs.com/fr/" class="uri">https://dataseolabs.com/fr/</a>”,“xxxxxxxxxxxxxxxxxxx”) majestic(“<a href="https://dataseolabs.com/en/" class="uri">https://dataseolabs.com/en/</a>”,“xxxxxxxxxxxxxxxxxxx”)</p>
+</div>
+<div id="majestic_domain" class="section level3">
+<h3>majestic_domain()</h3>
+<p>This function first extract the root domain from an URL, then provides all backlink data of the domain, including its CitationFlow, TrustFlow, and Root domain.</p>
+</div>
+<div id="majestic_all" class="section level3">
+<h3>majestic_all()</h3>
+<p>This function provides both majestic URL data and majestic Root Domain data for an URL.</p>
 </div>
 </div>
 

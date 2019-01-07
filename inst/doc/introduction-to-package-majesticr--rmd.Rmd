@@ -28,10 +28,12 @@ See INSTALL for installation instructions and platform specific details.
 
 ## 3. Functions
 
-### majestic()
+### majestic_url()
 This function provides all backlink data of an URL, including its CitationFlow, TrustFlow, and Root domain.
 
-library(majesticR)
-majestic("https://dataseolabs.com/fr/","xxxxxxxxxxxxxxxxxxx")
-majestic("https://dataseolabs.com/en/","xxxxxxxxxxxxxxxxxxx")
+### majestic_domain()
+This function first extract the root domain from an URL, then provides all backlink data of the domain, including its CitationFlow, TrustFlow, and Root domain.
+
+### majestic_all()
+This function provides both majestic URL data and majestic Root Domain data for an URL.
 
